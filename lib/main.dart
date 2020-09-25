@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import './About.dart';
-import './Profile.dart';
-import './Register.dart';
-import './Login.dart';
-import './Test.dart';
+import 'Home/About.dart';
+import 'Home/Profile.dart';
+import 'Home/Register.dart';
+import 'Home/Login.dart';
+import 'Home/Test.dart';
 
 void main() => runApp(MyApp());
 

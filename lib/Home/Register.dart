@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Validation.dart';
+import '../Validasi/Validation.dart';
 
 class Register extends StatefulWidget {
   createState() {
