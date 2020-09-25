@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
+
 import './About.dart';
 import './Profile.dart';
 import './Register.dart';
 import './Login.dart';
-import './test.dart';
+import './Test.dart';
 
-void main() => runApp(myApp());
+void main() => runApp(MyApp());
 
-class myApp extends StatefulWidget {
+class MyApp extends StatefulWidget {
   @override
   _myAppState createState() => _myAppState();
 }
 
-class _myAppState extends State<myApp> with SingleTickerProviderStateMixin {
+class _myAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   TabController controller;
 
   @override
@@ -52,7 +53,7 @@ class _myAppState extends State<myApp> with SingleTickerProviderStateMixin {
         ),
         body: TabBarView(
             controller: controller,
-            children: <Widget>[About(), Profile(), Register(), Login(), test()]),
+            children: <Widget>[About(), Profile(), Register(), Login(), Test()]),
       ),
     );
   }
